@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+/*start style fortnite*/
+.p-fortnite{
+    color:white;
+}
+
+.backgrund-text-fortnite{
+    width: 80%;
+    background-image: url("../img/jamal/backgruond-text=fortmitw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-indent: 7px;
+    word-spacing: 4px;
+    margin-left: 8%;
+    text-align: center;
+    border: 15px solid rgb(0, 0, 0);
+    border-style: double;
+    border-radius: 16% 0% 16% 0%;
+    
+    
+}
+
+.img-fortnite{
+    width:max-content;
+    background-image: url("../img/jamal/background-img-fortnite.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 15px solid rgb(0, 0, 0);
+    border-style: double;
+    border-radius: 16% 0% 16% 0%;
+    overflow-x: auto;
+    margin-left: 40%;
+}
+
+.icon-fortnite{
+    width: 27%;
+    height: 20%;
+    margin-left: 36% ;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background-image: url("../img/jamal/j.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid rgb(17, 27, 12);
+    border-radius: 30% 0% 30% 0%;
+    border-style: outset;
+    background-attachment: scroll;
+}
+
+.text-icon-fortnite{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+/*end style fortnite*/
+
+
+/*start style free fire*/
+.icon-free-fire{
+    width: 27%;
+    height: 20%;
+    margin-left: 36% ;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background-image: url("../img/jamal/backgrond-img-icon-free-fire.jpg");
+    background-position-y:70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid rgb(17, 27, 12);
+    border-radius: 0% 30% 0% 30%;
+    border-style: outset;
+    background-attachment: scroll;
+}
+    
+.img-free-fire{
+    width:max-content;
+    background-image: url("../img/jamal/background-img-free-fire.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 15px solid rgb(0, 0, 0);
+    border-style: double;
+    border-radius: 16% 0% 16% 0%;
+    overflow-x: auto;
+    margin-left: 40%;
+
+}
+
+.backgrund-text-free-fire{
+    width: 80%;
+    background-image: url("../img/jamal/garena-free-fire-img-background-text.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-indent: 7px;
+    word-spacing: 4px;
+    margin-left: 8%;
+    text-align: left;
+    border: 15px solid rgb(0, 0, 0);
+    border-style: double;
+    border-radius: 16% 0% 16% 0%;
+}
+
+/*end style free fire*/
+
+
+.icon-cal-of{
+    width: 27%;
+    height: 20%;
+    margin-left: 36% ;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background-image: url("../img/jamal/background-icon-img-cal-of.webp");
+    background-position-y:70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid rgb(17, 27, 12);
+    border-radius: 0% 30% 0% 30%;
+    border-style: outset;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.img-cal{
+    width:max-content;
+    background-image: url("../img/jamal/background-img-free-fire.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    border: 15px solid rgb(0, 0, 0);
+    border-style: double;
+    border-radius: 0% 16% 0% 16%;
+    overflow-x: auto;
+    margin-left: 40%;
+
+}
+.backgrund-text-cal-of{
+    width: 80%;
+    background-image: url("../img/jamal/3840x2160-call-of-duty-mobile-game_1572369735.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-indent: 7px;
+    word-spacing: 4px;
+    margin-left: 8%;
+    text-align: left;
+    border: 15px solid rgb(0, 0, 0);
+    border-style: double;
+    border-radius: 0% 16% 0% 16%;
+}
+  /* الرابط النهائيالمفترض ان يكون  للتعديل على اسفل الصفحة*/
+
+.link2{
+    width: 200px;
+    height:50px;
+    margin-left: 42%;
+    margin-top: 5%;
+    margin-bottom: 20rem;
+
+}
+

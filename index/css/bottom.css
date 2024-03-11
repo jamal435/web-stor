@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 1280px;
+    width: 95%;
+    background: black;
+    border-radius: 6px;
+}
+
+.footer .footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3.5rem;
+    padding: 60px;
+}
+
+.footer-row .footer-content h4 {
+    color: orange;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.footer-content .links {
+    margin-top: 20px;
+}
+
+.footer-content .links li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-content .links li a {
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+.footer-content .links li a:hover{
+    color: white;
+}
+
+.footer-content p {
+    margin: 20px 0;
+    color: #bfbfbf;
+    max-width: 300px;
+}
+
+.footer-content form {
+    display: flex;
+    gap: 5px;
+}
+
+.footer-content input {
+    height: 40px;
+    border-radius: 6px;
+    background: none;
+    width: 100%;
+    outline: none;
+    border: 1px solid orange;
+    caret-color: white;
+    color: white;
+    padding-left: 10px;
+}
+
+.footer-content input::placeholder {
+    color:#ccc;
+}
+
+.footer-content form button {
+    background: orange;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+.footer-content form button:hover{
+    background: white;
+}
+
+.footer-content.icon  {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.footer-content.icon i{
+    color: white;
+}
+
+.footer-content.icon i:hover{
+    color: orange;
+}
+
+/*Responsive*/
+
+@media (max-width:768px) {
+    .footer{
+        position: relative;
+        bottom: 0;
+        left: 0;
+        transform: none;
+        width: 0;
+        border-radius: 0;
+    
+}
+
+.footer .footer-row{
+    padding: 20px;
+    gap: 1rem;
+}
+
+.footer-content form{
+    display: block;
+}
+
+.footer-content form:where(input,button) {
+    width: 10px 0 0 0;
+}
+}
+
+.k1{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: orange;
+    border-radius: 12px 12px 12px 12px ;
+}
+
+.k2{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 12px 12px 12px 12px ;
+    background-color: black;
+    color: white;
+    border: 1px solid orange;
+}
+
+.dd1{
+    margin-bottom: 0;
+    
+}
+
+*{
+    position: relative;
+}
